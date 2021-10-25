@@ -1,0 +1,120 @@
+ref *1> {
+    type: 'tag',
+    name: 'span',
+    namespace: 'http://www.w3.org/1999/xhtml',
+    attribs: [Object: null prototype] { class: 'old-price' },
+    'x-attribsNamespace': [Object: null prototype] { class: undefined },
+    'x-attribsPrefix': [Object: null prototype] { class: undefined },
+    children: [
+      {
+        type: 'text',
+        data: '  ',
+        parent: [Circular *1],
+        prev: null,
+        next: [Object]
+      },
+      {
+        type: 'tag',
+        name: 'span',
+        namespace: 'http://www.w3.org/1999/xhtml',
+        attribs: [Object: null prototype],
+        'x-attribsNamespace': [Object: null prototype],
+        'x-attribsPrefix': [Object: null prototype],
+        children: [Array],
+        parent: [Circular *1],
+        prev: [Object],
+        next: null
+      }
+    ],
+    parent: <ref *2> {
+      type: 'tag',
+      name: 'div',
+      namespace: 'http://www.w3.org/1999/xhtml',
+      attribs: [Object: null prototype] {
+        class: 'price-box price-final_price',
+        'data-role': 'priceBox',
+        'data-product-id': '50',
+        'data-price-box': 'product-id-50'
+      },
+      'x-attribsNamespace': [Object: null prototype] {
+        class: undefined,
+        'data-role': undefined,
+        'data-product-id': undefined,
+        'data-price-box': undefined
+      },
+      'x-attribsPrefix': [Object: null prototype] {
+        class: undefined,
+        'data-role': undefined,
+        'data-product-id': undefined,
+        'data-price-box': undefined
+      },
+      children: [ [Object], [Object], [Object], [Circular *1], [Object] ],
+      parent: {
+        type: 'tag',
+        name: 'div',
+        namespace: 'http://www.w3.org/1999/xhtml',
+        attribs: [Object: null prototype],
+        'x-attribsNamespace': [Object: null prototype],
+        'x-attribsPrefix': [Object: null prototype],
+        children: [Array],
+        parent: [Object],
+        prev: [Object],
+        next: null
+      },
+      prev: null,
+      next: {
+        type: 'text',
+        data: '  ',
+        parent: [Object],
+        prev: [Circular *2],
+        next: [Object]
+      }
+    },
+    prev: <ref *3> {
+      type: 'text',
+      data: ' ',
+      parent: <ref *2> {
+        type: 'tag',
+        name: 'div',
+        namespace: 'http://www.w3.org/1999/xhtml',
+        attribs: [Object: null prototype],
+        'x-attribsNamespace': [Object: null prototype],
+        'x-attribsPrefix': [Object: null prototype],
+        children: [Array],
+        parent: [Object],
+        prev: null,
+        next: [Object]
+      },
+      prev: {
+        type: 'tag',
+        name: 'span',
+        namespace: 'http://www.w3.org/1999/xhtml',
+        attribs: [Object: null prototype],
+        'x-attribsNamespace': [Object: null prototype],
+        'x-attribsPrefix': [Object: null prototype],
+        children: [Array],
+        parent: [Object],
+        prev: [Object],
+        next: [Circular *3]
+      },
+      next: [Circular *1]
+    },
+    next: {
+      type: 'text',
+      data: '  ',
+      parent: <ref *2> {
+        type: 'tag',
+        name: 'div',
+        namespace: 'http://www.w3.org/1999/xhtml',
+        attribs: [Object: null prototype],
+        'x-attribsNamespace': [Object: null prototype],
+        'x-attribsPrefix': [Object: null prototype],
+        children: [Array],
+        parent: [Object],
+        prev: null,
+        next: [Object]
+      },
+      prev: [Circular *1],
+      next: null
+    }
+  }
