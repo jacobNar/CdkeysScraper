@@ -1,0 +1,29 @@
+{
+  "name": "cdkeysscraper",
+  "version": "1.0.0",
+  "description": "A web scraper, that will check the prices of items for you",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "got": "^11.8.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobNar/AmazonScraper.git"
+  },
+  "keywords": [
+    "amazon",
+    "web",
+    "scraper"
+  ],
+  "author": "jacob narayan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacobNar/AmazonScraper/issues"
+  },
+  "homepage": "https://github.com/jacobNar/AmazonScraper#readme"
+}
