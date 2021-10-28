@@ -12,7 +12,7 @@ const vgmUrl= 'https://www.cdkeys.com/pc';
 
   for(let i =0; i < products.length; i++){
     prod = JSON.parse(products[i].attribs['data-impression'])
-    let amazonPrice = await getProductPrice(prod)
+    // let amazonPrice = await getProductPrice(prod)
     console.log((prod.name + " - $" + prod.price + " - " + oldPrices[i].children[0].data + " - " + amazonPrice + "\n"));
   }
 
